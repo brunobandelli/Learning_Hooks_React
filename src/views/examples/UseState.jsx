@@ -29,6 +29,7 @@ const [name, setName] = useState("")
                 value={name} onChange={e => setName(e.target.value)}/>
             <a href 
              onClick={() => setName(atual => atual=1000)}>1000</a>
+            <span className="text">{name}</span>
 
         </div>
     )
