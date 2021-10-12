@@ -32,7 +32,6 @@ const UseReducer = (props) => {
             <div className="center">
                 {state.user ?<span className="text">{state.user.name}</span>
                 : <span className="text">Sem Usuário</span> }
-                <span className="text"></span>
                 <span className="text">{state.number}</span>
                 <div>
                     <button className="btn" onClick={() => dispatch({type: 'login', payload: 'Maria'})}>Login</button>
